@@ -1,0 +1,60 @@
+
+
+body{
+    background-image: url("./assets/topography.png");
+    font-family: Roboto;
+    padding:0;
+    margin:0;
+}
+
+p, dd{
+    font-family:consolas;
+}
+
+
+h1, h2, h3, p, dl, #hlavicka{
+    padding:0 10%;
+}
+
+#hlavicka{
+    background-color:#333333;
+}
+
+ul{
+    background-image:url("./assets/aperture.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    list-style-type: none;
+    text-align: right;
+    line-height: 300%;
+    margin:0;
+}
+
+li{
+    display: inline;
+    padding: 0.5em;
+    margin:0;
+}
+
+h2, a{
+    color:#ff0099;
+}
+
+hr{
+    width:1em;
+    border-width:0;
+    border-top:3px dashed black;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+dd{
+    margin:0 0 1em 0;
+}
+
+h3{
+    text-align:center;
+}
